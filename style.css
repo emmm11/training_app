@@ -3,4 +3,9 @@
 #appTitle {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: cadetblue;
+    text-align: center;
+}
+
+.calendar {
+    text-align: center;
 }
