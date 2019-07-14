@@ -2,10 +2,38 @@
 /* Main page title */
 #appTitle {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: cadetblue;
+    color: rgb(247, 164, 178);
     text-align: center;
+    margin-bottom: 75px;
+    background-color: rgb(132, 150, 168);
+    padding: 40px;
 }
 
-.calendar {
+.dayButton {
+    font-size: 15px;
     text-align: center;
+    padding: 50px 85px 80px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:white;
+    border: solid pink 2px;
+    width: 14px;
+    height: 14px;
+    border-radius: 5px;
+    float: left;
+    margin: 5px;
+}
+
+.dayButton:hover {
+    cursor: pointer;
+}
+
+.dayButton:focus {outline:0;}
+
+/* need to fix for resizing of screen */
+.weekDay {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    margin: 25px;
+    font-size: 20px;
+    font-weight: bold;
 }
