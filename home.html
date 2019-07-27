@@ -1,6 +1,6 @@
 <!--
 Goal: be able to track my Hansen running plan
-1. Web app prototype
+1. Web app prototype (done)
 2. React web app
 3. iOS app?
 
@@ -8,14 +8,13 @@ Need:
 - running plan input (the days, the kms)
 - need ability to view the day details
 - need ablity to view zoomed out to look at the week
-- need ability to check off a run
-- progress indicators
+- need ability to check off a run (done)
+- progress indicators 
 
 
 Nice to haves
 - add a picture
 - leave a note
-- see completion getting more and more full
 
 -->
 
@@ -29,6 +28,7 @@ Nice to haves
     </head>
     <body>
         <h1 id="appTitle">Hanson's Advanced Marathon</h1>
+        <h2 id="progressBar"></h2>
         <div class="weekDay">Monday</div>
         <div class="weekDay">Tuesday</div>
         <div class="weekDay">Wednesday</div>
@@ -40,25 +40,25 @@ Nice to haves
 
 
         <div class="button">
-            <button class="dayButton" id="dayOne" onclick="complete(this, event, 'white')">9.6km Easy</button> 
+            <button class="dayButton" id="day-1" onclick="complete(this, event, 'white')">9.6km Easy</button> 
         </div>
         <div class="button">
-            <button class="dayButton" id="dayTwo" onclick="complete(this, event, 'white')">9.6km Easy</button> 
+            <button class="dayButton" id="day-2" onclick="complete(this, event, 'white')">9.6km Easy</button> 
         </div>
         <div class="button">
-            <button class="dayButton" id="dayThree" onclick="complete(this, event, 'white')">X Train</button> 
+            <button class="dayButton" id="day-3" onclick="complete(this, event, 'white')">X Train</button> 
         </div>
         <div class="button">
-            <button class="dayButton" id="dayFour" onclick="complete(this, event, 'white')">9.6km Easy</button> 
+            <button class="dayButton" id="day-4" onclick="complete(this, event, 'white')">9.6km Easy</button> 
         </div>
         <div class="button">
-            <button class="dayButton" id="dayFive" onclick="complete(this, event, 'white')">9.6km Easy</button> 
+            <button class="dayButton" id="day-5" onclick="complete(this, event, 'white')">9.6km Easy</button> 
         </div>
         <div class="button">
-            <button class="dayButton" id="daySix" onclick="complete(this, event, 'white')">9.6km Easy</button> 
+            <button class="dayButton" id="day-6" onclick="complete(this, event, 'white')">9.6km Easy</button> 
         </div>
         <div class="button">
-            <button class="dayButton" id="daySeven" onclick="complete(this, event, 'white')">12.9 Easy</button> 
+            <button class="dayButton" id="day-7" onclick="complete(this, event, 'white')">12.9 Easy</button> 
         </div>
         <script type="text/javascript" src="script.js"></script>
     </body>
