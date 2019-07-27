@@ -22,6 +22,7 @@ Nice to haves
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>Running Tracker</title>
 
@@ -29,37 +30,66 @@ Nice to haves
     <body>
         <h1 id="appTitle">Hanson's Advanced Marathon</h1>
         <h2 id="progressBar"></h2>
-        <div class="weekDay">Monday</div>
-        <div class="weekDay">Tuesday</div>
-        <div class="weekDay">Wednesday</div>
-        <div class="weekDay">Thursday</div>
-        <div class="weekDay">Friday</div>
-        <div class="weekDay">Saturday</div>
-        <div class="weekDay">Sunday</div>
+
+        <!-- Days of the week-->
+        <!-- <div class="weekDay" style="font-size:2vw;">Monday</div>
+        <div class="weekDay" style="font-size:2vw;">Tuesday</div>
+        <div class="weekDay" style="font-size:2vw;">Wednesday</div>
+        <div class="weekDay" style="font-size:2vw;">Thursday</div>
+        <div class="weekDay" style="font-size:2vw;">Friday</div>
+        <div class="weekDay" style="font-size:2vw;">Saturday</div>
+        <div class="weekDay" style="font-size:2vw;">Sunday</div> -->
 
 
+        <div class="buttonSection">
 
-        <div class="button">
-            <button class="dayButton" id="day-1" onclick="complete(this, event, 'white')">9.6km Easy</button> 
+            <div class="button">
+                <button class="dayButton" id="day-1" onclick="complete(this, event, 'white')"> Monday 9.6km Easy</button> 
+            </div>
+            <div class="button">
+                <button class="dayButton" id="day-2" onclick="complete(this, event, 'white')">Tuesday 9.6km Easy</button> 
+            </div>
+            <div class="button">
+                <button class="dayButton" id="day-3" onclick="complete(this, event, 'white')">Wednesday X Train</button> 
+            </div>
+            <div class="button">
+                <button class="dayButton" id="day-4" onclick="complete(this, event, 'white')">Thursday 9.6km Easy</button> 
+            </div>
+            <div class="button">
+                <button class="dayButton" id="day-5" onclick="complete(this, event, 'white')">Friday 9.6km Easy</button> 
+            </div>
+            <div class="button">
+                <button class="dayButton" id="day-6" onclick="complete(this, event, 'white')">Saturday 9.6km Easy</button> 
+            </div>
+            <div class="button">
+                <button class="dayButton" id="day-7" onclick="complete(this, event, 'white')">Sunday 12.9km Easy</button> 
+            </div>
+            <div class="button">
+                    <button class="dayButton" id="day-8" onclick="complete(this, event, 'white')"> Monday 9.6km Easy</button> 
+                </div>
+                <div class="button">
+                    <button class="dayButton" id="day-9" onclick="complete(this, event, 'white')">Tuesday Speed </button> 
+                </div>
+                <div class="button">
+                    <button class="dayButton" id="day-10" onclick="complete(this, event, 'white')">Wednesday X Train</button> 
+                </div>
+                <div class="button">
+                    <button class="dayButton" id="day-11" onclick="complete(this, event, 'white')">Thursday 9.6km Easy</button> 
+                </div>
+                <div class="button">
+                    <button class="dayButton" id="day-12" onclick="complete(this, event, 'white')">Friday 9.6km Easy</button> 
+                </div>
+                <div class="button">
+                    <button class="dayButton" id="day-13" onclick="complete(this, event, 'white')">Saturday 9.6km Easy</button> 
+                </div>
+                <div class="button">
+                    <button class="dayButton" id="day-14" onclick="complete(this, event, 'white')">Sunday 12.9km Easy</button> 
+                </div>
         </div>
-        <div class="button">
-            <button class="dayButton" id="day-2" onclick="complete(this, event, 'white')">9.6km Easy</button> 
-        </div>
-        <div class="button">
-            <button class="dayButton" id="day-3" onclick="complete(this, event, 'white')">X Train</button> 
-        </div>
-        <div class="button">
-            <button class="dayButton" id="day-4" onclick="complete(this, event, 'white')">9.6km Easy</button> 
-        </div>
-        <div class="button">
-            <button class="dayButton" id="day-5" onclick="complete(this, event, 'white')">9.6km Easy</button> 
-        </div>
-        <div class="button">
-            <button class="dayButton" id="day-6" onclick="complete(this, event, 'white')">9.6km Easy</button> 
-        </div>
-        <div class="button">
-            <button class="dayButton" id="day-7" onclick="complete(this, event, 'white')">12.9 Easy</button> 
-        </div>
+        <!-- <p>Speed: 
+        1. 2.4 km warmup + 12 x 400m @ 5-10k pace, 400m jog rest + 2.4 km cooldown
+        </p> -->
+
         <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
